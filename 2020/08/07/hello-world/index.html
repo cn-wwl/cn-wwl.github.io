@@ -405,6 +405,30 @@
 
 
 
+  <div id="giteement-ctn"></div>
+  
+    <link rel="stylesheet" href="/lib/default.css">
+    <script src="/lib/giteement.browser.js"></script>
+  
+  <script>
+  <!-- id: "Hello World" -->
+  var giteement = new Giteement({
+    id: '20200807230916',
+    owner: 'cn-wwl',
+    repo: 'yilia-plus-demo',
+    backcall_uri: 'https://cn-wwl.github.io',
+    oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+    oauth: {
+      client_id: '6680704de7bb2edd8b822b4c30a11548adca4ba88ae00165d222fb2bc57fad98',
+      client_secret: 'ba26d11b651f1aafc4c30203b43e7fbec0b905469d95fe5df56b4b9264b3c139'
+    },
+  })
+  giteement.render('giteement-ctn')
+  </script>
+
+
+
+
 
 
 
